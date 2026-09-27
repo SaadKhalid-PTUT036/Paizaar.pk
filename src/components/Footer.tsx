@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center mb-4">
-              <img src={logo} alt="Paizar.PK" className="h-16 object-contain" />
+              <img src={logo} alt="Paizaar.PK" className="h-16 object-contain" />
             </div>
             <p className="text-primary-foreground/80 mb-4">
               Premium footwear collection for men, women, and kids. Style that supports.
@@ -99,7 +99,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} Paizar.PK. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Paizaar.PK. All rights reserved.</p>
         </div>
       </div>
     </footer>

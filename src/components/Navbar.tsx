@@ -83,7 +83,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo - Left with padding */}
             <Link to="/" className="flex items-center flex-shrink-0">
-              <img src={logo} alt="Paizar.PK" className="h-20 object-contain" />
+              <img src={logo} alt="Paizaar.PK" className="h-20 object-contain" />
             </Link>
 
             {/* Desktop Navigation - Center */}

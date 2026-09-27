@@ -59,7 +59,7 @@ const AdminLayout = () => {
           <Link to="/admin" className="flex items-center gap-2">
             <img src={logo} alt="Paizar.PK" className="h-10 w-10" />
             <div>
-              <h1 className="font-display text-xl font-bold">Paizar.PK</h1>
+              <h1 className="font-display text-xl font-bold">Paizaar.PK</h1>
               <p className="text-xs text-muted-foreground">Admin Panel</p>
             </div>
           </Link>

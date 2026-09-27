@@ -14,6 +14,7 @@ import {
 import { useAuth } from "@/contexts/AuthContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { toast } from "sonner";
 
 const Login = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -83,7 +84,9 @@ const Login = () => {
       if (success) {
         setError(null);
         setActiveTab("login");
-        alert("Account created successfully! You can now log in.");
+        toast.success("Account created!", {
+          description: "You can now sign in with your new account.",
+        });
       } else {
         setError("An account with this email already exists");
       }
